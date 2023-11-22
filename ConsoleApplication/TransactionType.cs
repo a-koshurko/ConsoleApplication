@@ -1,7 +1,6 @@
 namespace ConsoleApplication
-{
-    public enum transType
-    {
-        
-    }
+
+{       
+    public enum TransactionType { Buy = 1, Sell = -1 }
+    
 }
